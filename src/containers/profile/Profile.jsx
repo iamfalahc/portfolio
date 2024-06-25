@@ -1,5 +1,5 @@
 import React from "react";
-import "../container.css";
+import "./profile.css";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 import profileImage from "../../assets/Picsart_24-01-21_21-01-42-237-01.jpeg"
