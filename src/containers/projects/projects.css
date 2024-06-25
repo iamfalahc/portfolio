@@ -1,18 +1,25 @@
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 60px;
     text-align: center;
-}
+    margin-bottom: 100px;
 
+}
 .projects-container {
     display: flex;
     justify-content: space-around;
 }
-.projects-container section{
+.e-commerce{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.medi-care{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.5s;
 }
 .projects h1 {
     font-size: 40px;
@@ -22,6 +29,11 @@
     margin-bottom: 0px;
     font-stretch: semi-expanded;
     color: rgb(34, 34, 34);
+}
+.projects img {
+    width: 220px;
+    height: 180px;
+    object-fit: contain;
 }
 
 .projects h4 {
@@ -37,9 +49,5 @@
     font-weight: 300;
     max-width: 300px;
 }
-.projects img {
-    width: 220px;
-    height: 180px;
-    object-fit: contain;
-}
+
 

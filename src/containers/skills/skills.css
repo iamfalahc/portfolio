@@ -1,0 +1,35 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.skills h1{
+    font-size: 40px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    line-height: 10px;
+    margin-bottom: 0px;
+    font-stretch: semi-expanded;
+    color: rgb(34, 34, 34);
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.skills-container section{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.check-mark-img{
+    width: 20px;
+    height: 20px;
+}
+.skills span{
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: 300;
+}
