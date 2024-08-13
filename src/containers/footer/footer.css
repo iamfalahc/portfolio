@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer span{
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.copyright-icon {
+    stroke-width: 1;
+    transform: translateY(3px);
+  }

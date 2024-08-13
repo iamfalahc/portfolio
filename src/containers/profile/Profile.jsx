@@ -2,7 +2,7 @@ import React from "react";
 import "./profile.css";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
-import profileImage from "../../assets/Picsart_24-01-21_21-01-42-237-01.jpeg"
+import profileImage from "../../assets/Picsart_24-01-21_21-01-42-237-01.jpeg";
 const Profile = () => {
   return (
     <div className="profile">
@@ -11,14 +11,20 @@ const Profile = () => {
           <h1>MUHAMMED</h1>
           <h1>FALAH</h1>
         </div>
-        <h4>MERN STACK DEVELOPER</h4>
+        <div className="title">
+          {" "}
+          <h4>MERN STACK DEVELOPER</h4>
+        </div>
         <div className="social-platform">
           <FaGithub className="social-icon" />
           <IoLogoLinkedin className="social-icon" />
         </div>
-        <span className="description">
-        With a passion for developing modern React web apps for commercial businesses
+       <div className="description">
+       <span>
+          With a passion for developing modern React web apps for commercial
+          businesses
         </span>
+       </div>
         <button className="resume-btn">Resume</button>
       </section>
       <section className="image-section">

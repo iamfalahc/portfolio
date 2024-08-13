@@ -62,3 +62,44 @@
     mix-blend-mode: multiply;
     margin-top: 30px;
 }
+@media screen and (max-width: 768px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+        margin-bottom: 100px;
+    }
+    .profile-details{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        font-size: 20px;
+    }
+    .name h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .title{
+        width: 100%;
+    }
+    .image-section{
+       text-align: center;
+    }
+    .profile-image{
+        width: 60%;
+        height: 60%;
+        object-fit: contain;
+        border-radius: 50%;
+        mix-blend-mode: multiply;
+    }
+
+
+}

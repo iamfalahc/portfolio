@@ -1,3 +1,5 @@
+import Contact from "./containers/contact/Contact";
+import Footer from "./containers/footer/Footer";
 import Profile from "./containers/profile/Profile";
 import Projects from "./containers/projects/Projects";
 import Skills from "./containers/skills/Skills";
@@ -8,6 +10,8 @@ function App() {
   <Profile/>
   <Projects/>
   <Skills/>
+  <Contact/>
+  <Footer/>
 
     </div>
   );

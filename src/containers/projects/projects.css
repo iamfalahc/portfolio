@@ -1,53 +1,78 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    text-align: center;
-    margin-bottom: 100px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 .projects-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-.e-commerce{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.medi-care{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    transition: transform 0.5s;
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.5s;
 }
 .projects h1 {
-    font-size: 40px;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    line-height: 10px;
-    margin-bottom: 0px;
-    font-stretch: semi-expanded;
-    color: rgb(34, 34, 34);
+  font-size: 40px;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  line-height: 10px;
+  margin-bottom: 0px;
+  font-stretch: semi-expanded;
+  color: rgb(34, 34, 34);
 }
 .projects img {
-    width: 220px;
-    height: 180px;
-    object-fit: contain;
+  width: 220px;
+  height: 180px;
+  object-fit: contain;
 }
 
 .projects h4 {
-    font-size: 24px;
-    font-family: "Roboto Mono", monospace;
-    word-spacing: 0;
-    margin: 0;
+  font-size: 24px;
+  font-family: "Roboto Mono", monospace;
+  word-spacing: 0;
+  margin: 0;
 }
 
 .projects span {
-    font-family: "Roboto Mono", monospace;
-    font-size: 20px;
-    font-weight: 300;
-    max-width: 300px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 300px;
 }
-
-
+@media screen and (max-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+  }
+  .project{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+  }
+  .projects h1 {
+    font-size: 32px;
+    font-family: "Rubik Mono One", monospace;
+    margin-bottom: 0px;
+    color: rgb(34, 34, 34);
+  }
+  .projects img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+}

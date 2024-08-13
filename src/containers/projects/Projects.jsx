@@ -10,13 +10,13 @@ const Projects = () => {
         <h1>PROJECTS</h1>{" "}
       </header>
       <div className="projects-container">
-        <div className="e-commerce">
+        <div className="project">
           <img className="ecommerce-image" src={eCommerceImage} alt="" />
           <h4>E COMMERCE</h4>
           <span>E Commerce Website</span>
         </div>
 
-        <div className="medi-care">
+        <div className="project">
          <img className="medicare-image" src={mediCareImage} alt="" />
           <h4>MEDI CARE</h4>
           <span>Doctor Booking Website</span>
